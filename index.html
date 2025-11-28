@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech for Child Safety</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo-title">
+      <!-- UPDATED: use your own local logo file -->
+      <img src="images/logo.jpeg" alt="Child Safety Logo" />
+      <h1>Technology For Child Safety</h1>
+    </div>
+
+    <!-- NEW: Top-right header buttons -->
+    <div class="header-actions">
+      <button class="header-btn" data-scroll="#tracker">Live Location</button>
+      <button class="header-btn secondary" data-scroll="#sos">Emergency SOS</button>
+      <button class="header-btn outline" data-scroll="#contact">Get Support</button>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a>
+          <ul class="dropdown">
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#vision">Our Vision</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </li>
+        <li><a href="#images">Information</a>
+          <ul class="dropdown">
+            <li><a href="#safety">Safety Tips</a></li>
+            <li><a href="#awareness">Digital Awareness</a></li>
+          </ul>
+        </li>
+        <li><a href="#tools">Tools</a>
+          <ul class="dropdown">
+            <li><a href="#tracker">Child Tracker</a></li>
+            <li><a href="#control">Parental Control</a></li>
+            <li><a href="#sos">SOS System</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Image on Blue Background -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-text fade-in">
+        <h2>Explore Innovative Technologies</h2>
+        <p>Designed to keep children safe and parents informed at every moment.</p>
+        <a href="#images" class="hero-btn">Discover More</a>
+      </div>
+
+      <!-- UPDATED: use a local, responsive image -->
+      <div class="hero-image slide-up">
+        <img src="C:\Users\Aditya\OneDrive\Desktop\Field\images\Parent using child safety app.jpg" alt="Parent using child safety app" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW: Mission / Vision / Team (so nav links work) -->
+  <section class="info-grid" id="mission">
+    <article class="info-card fade-in">
+      <h3>Our Mission</h3>
+      <p>
+        To help parents use technology in a healthy way so that children can stay safe,
+        independent, and confident online and in the real world.
+      </p>
+    </article>
+
+    <article class="info-card fade-in" id="vision">
+      <h3>Our Vision</h3>
+      <p>
+        A world where every child’s digital and physical safety is protected through
+        transparent tools, informed parents, and strong communities.
+      </p>
+    </article>
+
+    <article class="info-card fade-in" id="team">
+      <h3>Our Team</h3>
+      <p>
+        We are a small group of educators, developers, and parents who build simple tools
+        and guides that families can actually use in daily life.
+      </p>
+    </article>
+  </section>
+
+  <!-- Alternating Image + Info Section -->
+  <section class="image-section" id="images">
+
+    <!-- Parental Monitoring -->
+    <div class="image-block fade-in">
+      <div class="image-info">
+        <h3>Parental Monitoring</h3>
+        <p>
+          AI-powered monitoring tools help parents stay informed about their child’s digital
+          activities while promoting trust and safety.
+        </p>
+        <!-- REAL RESOURCE LINK -->
+        <a href="https://www.commonsensemedia.org/articles/parents-ultimate-guide-to-parental-controls"
+           target="_blank" rel="noopener noreferrer" class="learn-btn">
+          Parental Control Guide
+        </a>
+      </div>
+
+      <!-- UPDATED: image + link to a relevant resource -->
+      <a href="https://www.commonsensemedia.org" target="_blank" rel="noopener noreferrer" class="image-link">
+        <img src="C:\Users\Aditya\OneDrive\Desktop\Field\images\parental control.jpg"
+             alt="Parent monitoring child's device safely"
+             loading="lazy" />
+      </a>
+    </div>
+
+    <!-- GPS Tracking Apps -->
+    <div class="image-block slide-up" id="tracker">
+      <div class="image-info">
+        <h3>GPS Tracking Apps</h3>
+        <p>
+          GPS tracking helps parents locate children in real time, set safe zones, and
+          receive alerts instantly on their phones.
+        </p>
+        <!-- Redirect link to a real-time tracking service -->
+        <a href="https://www.life360.com" target="_blank" rel="noopener noreferrer" class="learn-btn">
+          Explore Live Tracking
+        </a>
+      </div>
+
+      <!-- Image links to the same live service -->
+      <a href="https://www.life360.com" target="_blank" rel="noopener noreferrer" class="image-link">
+        <img src="C:\Users\Aditya\OneDrive\Desktop\Field\images\gps traking.jpg"
+             alt="Live GPS tracking app on smartphone"
+             loading="lazy" />
+      </a>
+    </div>
+
+    <!-- Cyberbullying Detection -->
+    <div class="image-block fade-in" id="awareness">
+      <div class="image-info">
+        <h3>Cyberbullying Detection</h3>
+        <p>
+          Smart systems can detect online bullying patterns and negative content so that
+          parents and schools can respond sooner.
+        </p>
+        <a href="https://www.stopbullying.gov/resources"
+           target="_blank" rel="noopener noreferrer" class="learn-btn">
+          StopBullying Resources
+        </a>
+      </div>
+
+      <!-- Local image + external resource -->
+      <a href="https://www.stopbullying.gov" target="_blank" rel="noopener noreferrer" class="image-link">
+        <img src="C:\Users\Aditya\OneDrive\Desktop\Field\images\cyber bullying.jpg"
+             alt="Teen and parent discussing online bullying"
+             loading="lazy" />
+      </a>
+    </div>
+  </section>
+
+  <!-- NEW: Safety + Awareness quick sections -->
+  <section class="info-grid" id="safety">
+    <article class="info-card slide-up">
+      <h3>Quick Safety Tips</h3>
+      <ul class="bullet-list">
+        <li>Keep location sharing limited to trusted contacts.</li>
+        <li>Use strong passwords and two-factor authentication.</li>
+        <li>Set clear rules on screen time and online friends.</li>
+        <li>Talk openly about what to do if something feels unsafe.</li>
+      </ul>
+    </article>
+
+    <article class="info-card slide-up">
+      <h3>Digital Awareness</h3>
+      <p>
+        Children do not always understand how fast content spreads online. Regular
+        conversations about privacy, consent, and kindness can prevent many issues.
+      </p>
+      <a href="https://www.unicef.org/end-violence/how-to-stop-cyberbullying"
+         target="_blank" rel="noopener noreferrer" class="text-link">
+        Learn more about cyber safety for kids
+      </a>
+    </article>
+  </section>
+
+  <!-- Tools Section with internal anchors -->
+  <section class="tools-section" id="tools">
+    <h2 class="section-title">Tools for Parents</h2>
+    <div class="tools-grid">
+      <article class="tool-card fade-in" id="control">
+        <h3>Parental Control Dashboard</h3>
+        <p>
+          Manage screen time, block harmful sites, and review search history in one place.
+        </p>
+        <a href="https://families.google.com/familylink/"
+           target="_blank" rel="noopener noreferrer" class="learn-btn">
+          Try a Control App
+        </a>
+      </article>
+
+      <article class="tool-card fade-in" id="sos">
+        <h3>One-Tap SOS</h3>
+        <p>
+          Teach your child to use an SOS shortcut that can share their live location and
+          notify trusted contacts during an emergency.
+        </p>
+        <a href="https://support.google.com/android/answer/9319337"
+           target="_blank" rel="noopener noreferrer" class="learn-btn">
+          Set Up SOS on Android
+        </a>
+      </article>
+
+      <article class="tool-card fade-in">
+        <h3>Family Location Map</h3>
+        <p>
+          Create a small private circle only for close family members to view each
+          other’s approximate location.
+        </p>
+        <a href="https://www.google.com/maps/about/locationsharing/"
+           target="_blank" rel="noopener noreferrer" class="learn-btn">
+          Location Sharing Guide
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- NEW: Video / media content -->
+  <section class="video-section fade-in">
+    <div class="video-text">
+      <h2>Learn With Short Guides</h2>
+      <p>
+        Watch quick videos on how to talk to your child about online safety, configure
+        privacy settings, and respond to red flags.
+      </p>
+    </div>
+    <div class="video-embed">
+  <video controls class="video-box">
+    <source src="images/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+  </section>
+
+  <!-- Parallax Section -->
+  <section class="parallax">
+    <h2>Technology for a Safer Future</h2>
+  </section>
+
+  <!-- Contact Section with simple form -->
+  <section class="contact-section" id="contact">
+    <h2>Contact & Support</h2>
+    <p class="contact-intro">
+      Have a question or need help choosing the right tools for your family? Send us a message.
+    </p>
+    <form class="contact-form">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+      <button type="submit" class="primary-btn">Submit</button>
+    </form>
+
+    <p class="contact-note">
+      For urgent safety issues, contact your local authorities immediately before using any online tool.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Tech for Child Safety | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    // Scroll animations
+    const elements = document.querySelectorAll('.fade-in, .slide-up');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, {
+      threshold: 0.15
+    });
+    elements.forEach(el => observer.observe(el));
+
+    // NEW: Header button smooth scroll
+    document.querySelectorAll('.header-btn[data-scroll]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const target = document.querySelector(btn.dataset.scroll);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // OPTIONAL: Smooth scroll for all internal nav links (fallback)
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        const targetId = link.getAttribute('href');
+        const targetEl = document.querySelector(targetId);
+        if (targetEl) {
+          e.preventDefault();
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
